@@ -26,7 +26,7 @@ cd ..
 ##./configure
 ##make
 ##make install
-cd ..
+##cd ..
 
 #from PPA (faster)
 add-apt-repository -y ppa:chris-lea/node.js

@@ -15,6 +15,7 @@ cd zeromq-3.2.2
 make
 make install
 ldconfig
+cd ..
 
 #node (latest stable)
 
@@ -25,6 +26,7 @@ ldconfig
 ##./configure
 ##make
 ##make install
+cd ..
 
 #from PPA (faster)
 add-apt-repository -y ppa:chris-lea/node.js

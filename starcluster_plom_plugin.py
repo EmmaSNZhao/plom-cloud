@@ -35,10 +35,7 @@ apt-get install -y nodejs npm
 
 #plom-sfi
 git clone https://github.com/plom/plom-sfi.git
-cd plom-sfi
-
-sed -ie "s/gcc-4.7/gcc/" install.sh
-cd model_builder/C/core
+cd plom-sfi/model_builder/C/core
 sed -ie \"s/#define FLAG_VERBOSE \([0-9]*\)/#define FLAG_VERBOSE 0/\" plom.h
 sed -ie \"s/#define FLAG_WARNING \([0-9]*\)/#define FLAG_WARNING 0/\" plom.h
 cd ../../../
